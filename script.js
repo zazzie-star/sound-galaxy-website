@@ -24,5 +24,7 @@ function setup() {
     positionParticles()
 }
 
-function draw() {}
+function draw() {
+    drawParticles()
+}
 
