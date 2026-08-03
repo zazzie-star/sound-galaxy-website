@@ -4,6 +4,11 @@ let Particle = function (position) {
     this.position = position //setting position given to particle when its created
     this.speed = createVector(0, 1) //setting spped to 0 in x direction and 1 in y direction
     this.color = [random(0, 255), random(0, 255), random(0, 255)] //setting color to a random RGB color
+
+    this.draw = function () { //method that gives instructions for drawing a particle
+        circle(this.position.x, this.position.y, this.diameter)
+        fill(this.color)
+    }
 }
 
 function setup() {
