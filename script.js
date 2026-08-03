@@ -1,5 +1,9 @@
 let fft
 
+let Particle = function (position) {
+    
+}
+
 function setup() {
     createCanvas(windowWidth, windowHeight)
     noStroke()
