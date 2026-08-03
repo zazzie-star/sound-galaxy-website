@@ -15,6 +15,8 @@ function setup() {
 
     fft = new p5.FFT()
     fft.setInput(mic)
+
+    positionParticles()
 }
 
 function draw() {}
